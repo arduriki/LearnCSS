@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*
+Typography is the way that text is arranged and presented.
+*/
+
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: 'Courier New', monospace, sans-serif;
+}
+
+/* Respect this order to work */
+
+a {
+  color: hsl(207, 44%, 49%);
+  /* Default style
+  text-decoration: none;
+  cursor: pointer;
+  color: blue; */
+}
+
+a:visited {
+  color: purple;
+}
+
+/* a:focus is for people who tab the site instead of hovering */
+a:hover, a:focus {
+  color: hsl(189, 44%, 49%, 0.7);
+  background: gold;
+}
+
+a:active {
+  color: red;
+}

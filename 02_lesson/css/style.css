@@ -1,0 +1,32 @@
+body {
+    font-size: 22px;
+    /* property not inherited to the other elements: 
+    border: 3px solid black; */
+}
+
+main {
+    font-family: monospace;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* Class selector, overrules the tag, most common */
+.gray {
+    color: gray;
+}
+
+/* ID selector: more specific, avoid them */
+#second {
+    font-style: italic;
+}

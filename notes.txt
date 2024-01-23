@@ -1,0 +1,68 @@
+COURSE:
+https://youtu.be/OXGznpKZ_sA?si=2Mlz5bodyRezWpMN
+
+RESOURCES
+
+CSS Validator:
+https://jigsaw.w3.org/css-validator/
+
+Specificity calculator:
+https://specificity.keegan.st
+
+Color pallettes generator & Contrast checker:
+https://coolors.co
+
+--------------------
+CONCEPTS
+Use tags or classes to select. Rather than id.
+###
+tag, tag {} -> Two selections.
+###
+tag tag {} -> Nested selection.
+-> It's better to use a class instead.
+###
+Universal selector -> *
+It doesn't use heritance selection, it applies to all elements.
+###
+CSS is a cascading language: whatever is written last, will stay.
+###
+Especificity -> elements < class < ids
+###
+! sign after the attribute, marks as important. But it's better not to do it.
+
+Color properties:
+background == background-color
+rgba -> plus transparency (0 to 1)
+hex: #RRGGBB
+hsl = hue saturation lightness.
+Color pallette: hover over the box color in order to select the color prefered.
+###
+
+Pixels is the common units size to use.
+16px of font-size, is the browser's default.
+- Don't set the font-size, we want to allow users to handle it with the browser.
+
+Regarding the width, is better to not set it for the whole page. Rather set it for every element. This way, 100% (default) is the whole width. Whereas 50% is half of it.
+
+Percentage is commonly used for sizes.
+
+font-size: 1rem(default) one root element.
+2rem is the double.
+
+em can be used for padding in the elements.
+
+ch = characters
+- Use it in the width in order to determine where to wrap the text.
+
+###
+
+box-sizing: border-box.
+Calculate the sizes that we assign. Doesn't include the margin in the calculation.
+
+outline: doesn't take up space.
+outline-offset
+auto for left and right to center the content horizontally.
+
+###
+
+TYPOGRAPHY
