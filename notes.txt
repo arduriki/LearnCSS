@@ -64,5 +64,3 @@ outline-offset
 auto for left and right to center the content horizontally.
 
 ###
-
-TYPOGRAPHY
